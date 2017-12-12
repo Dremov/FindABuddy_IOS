@@ -17,6 +17,7 @@ class EventTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         // Load the sample data.
         loadSampleEvents()
     }

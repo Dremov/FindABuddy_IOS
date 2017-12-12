@@ -48,7 +48,6 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="description" destination="Hg5-OI-gcC" id="gj6-si-YWX"/>
                                     <outlet property="descriptionEvent" destination="Hg5-OI-gcC" id="Ggr-vw-QYS"/>
                                     <outlet property="nameLabel" destination="EF9-Xd-bUx" id="PRj-iV-XfL"/>
                                     <outlet property="photoImageView" destination="69q-9Q-T59" id="qRf-xw-QrH"/>
