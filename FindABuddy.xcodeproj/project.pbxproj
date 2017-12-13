@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52471101FE1ACD90034002C /* Unbenannt-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E524710F1FE1ACD90034002C /* Unbenannt-1.png */; };
 		FDE73F131FC83B9B003E9A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE73F121FC83B9B003E9A3C /* AppDelegate.swift */; };
 		FDE73F151FC83B9B003E9A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE73F141FC83B9B003E9A3C /* ViewController.swift */; };
 		FDE73F181FC83B9B003E9A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE73F161FC83B9B003E9A3C /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E524710F1FE1ACD90034002C /* Unbenannt-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unbenannt-1.png"; sourceTree = "<group>"; };
 		FDE73F0F1FC83B9B003E9A3C /* FindABuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindABuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE73F121FC83B9B003E9A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDE73F141FC83B9B003E9A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				FDFF24581FCCD76500B9C9FE /* EventTableViewController.swift */,
 				FDE73F161FC83B9B003E9A3C /* Main.storyboard */,
 				FDE73F191FC83B9B003E9A3C /* Assets.xcassets */,
+				E524710F1FE1ACD90034002C /* Unbenannt-1.png */,
 				FDE73F1B1FC83B9B003E9A3C /* LaunchScreen.storyboard */,
 				FDE73F1E1FC83B9B003E9A3C /* Info.plist */,
 				FDFF24481FCB85F800B9C9FE /* Event.swift */,
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE73F1D1FC83B9B003E9A3C /* LaunchScreen.storyboard in Resources */,
+				E52471101FE1ACD90034002C /* Unbenannt-1.png in Resources */,
 				FDE73F1A1FC83B9B003E9A3C /* Assets.xcassets in Resources */,
 				FDE73F181FC83B9B003E9A3C /* Main.storyboard in Resources */,
 			);
