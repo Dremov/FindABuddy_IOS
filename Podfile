@@ -15,4 +15,3 @@ target 'FindABuddy' do
 end
 
 pod 'Firebase/Core'
-pod 'FirebaseUI'
