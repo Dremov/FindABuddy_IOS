@@ -1,6 +1,0 @@
-framework module Pods_FindABuddy {
-  umbrella header "Pods-FindABuddy-umbrella.h"
-
-  export *
-  module * { export * }
-}
