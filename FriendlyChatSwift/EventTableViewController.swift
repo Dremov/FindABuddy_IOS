@@ -123,21 +123,33 @@ class EventTableViewController: UITableViewController {
         dbReference.observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
             let value1 = snapshot.value as? NSDictionary
+           
             let eventSnap1 = value1?.value(forKey: "test") as? NSDictionary
             let label1 = eventSnap1?["title"] as? String ?? ""
             let desc1 = eventSnap1?["description"] as? String ?? ""
+            let expec1 = eventSnap1?["buddiesNumber"] as? Int ?? 0
             //            let user = User(username: username)
             
             
-            guard let event1 = Event(label: label1, photo: photo1, description: desc1, expectedPersons: 1) else {
+            guard let event1 = Event(label: label1, photo: photo1, description: desc1, expectedPersons: expec1) else {
                 fatalError("Unable to instantiate event1")
             }
             
-            guard let event2 = Event(label: "Event 2", photo: photo1, description: "Second event", expectedPersons: 2) else {
+            let eventSnap2 = value1?.value(forKey: "test2") as? NSDictionary
+            let label2 = eventSnap2?["title"] as? String ?? ""
+            let desc2 = eventSnap2?["description"] as? String ?? ""
+            let expec2 = eventSnap2?["buddiesNumber"] as? Int ?? 0
+            
+            guard let event2 = Event(label: label2, photo: photo1, description: desc2, expectedPersons: expec2) else {
                 fatalError("Unable to instantiate event2")
             }
             
-            guard let event3 = Event(label: "Event 3", photo: photo1, description: "Third event", expectedPersons: 3) else {
+            let eventSnap3 = value1?.value(forKey: "test3") as? NSDictionary
+            let label3 = eventSnap3?["title"] as? String ?? ""
+            let desc3 = eventSnap3?["description"] as? String ?? ""
+            let expec3 = eventSnap3?["buddiesNumber"] as? Int ?? 0
+            
+            guard let event3 = Event(label: label3, photo: photo1, description: desc3, expectedPersons: expec3) else {
                 fatalError("Unable to instantiate event1")
             }
             
