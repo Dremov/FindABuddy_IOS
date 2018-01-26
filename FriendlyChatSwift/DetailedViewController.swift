@@ -12,6 +12,9 @@ import Firebase
 class DetailedViewController: UIViewController {
         
     @IBOutlet weak var DetailedText: UITextView!
+    @IBOutlet weak var JoinText: UIButton!
+
+    var receivedJoinText = String()
     var receivedDetailedText = String()
     var dbReference: DatabaseReference!
     var events = [Event]()
@@ -20,6 +23,7 @@ class DetailedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         DetailedText.text = receivedDetailedText
+        JoinText.setTitle(receivedJoinText, for: .normal)
 
 
         // Do any additional setup after loading the view.

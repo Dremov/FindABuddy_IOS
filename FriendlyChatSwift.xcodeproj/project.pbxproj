@@ -17,6 +17,7 @@
 		A92476E91D6F96C300A96C4B /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A92476E71D6F96C300A96C4B /* RobotoMono-Regular.ttf */; };
 		DBBAAE069585D787FD06FE15 /* Pods_FriendlyChatSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE776B645030DD333883549 /* Pods_FriendlyChatSwift.framework */; };
 		E583F21B201A90AE004473FD /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E583F21A201A90AE004473FD /* DetailedViewController.swift */; };
+		E583F21D201AB739004473FD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E583F21C201AB739004473FD /* MapViewController.swift */; };
 		FD56BA67201A4B0400D86D70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD56BA66201A4B0300D86D70 /* GoogleService-Info.plist */; };
 		FD56BA69201A565A00D86D70 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56BA68201A565A00D86D70 /* EventTableViewController.swift */; };
 		FD56BA6B201A56B100D86D70 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56BA6A201A56B100D86D70 /* Event.swift */; };
@@ -37,6 +38,7 @@
 		A92476E61D6F96C300A96C4B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		A92476E71D6F96C300A96C4B /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
 		E583F21A201A90AE004473FD /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		E583F21C201AB739004473FD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		F3514636A3BDB21360D87272 /* Pods-FriendlyChatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChatSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendlyChatSwift/Pods-FriendlyChatSwift.release.xcconfig"; sourceTree = "<group>"; };
 		FD56BA66201A4B0300D86D70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD56BA68201A565A00D86D70 /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				107960711C612531003DB6CC /* Main.storyboard */,
 				E583F21A201A90AE004473FD /* DetailedViewController.swift */,
+				E583F21C201AB739004473FD /* MapViewController.swift */,
 				FD56BA68201A565A00D86D70 /* EventTableViewController.swift */,
 				FD56BA6C201A56F600D86D70 /* EventTableViewCell.swift */,
 				FD56BA6A201A56B100D86D70 /* Event.swift */,
@@ -305,6 +308,7 @@
 				FD56BA69201A565A00D86D70 /* EventTableViewController.swift in Sources */,
 				2C595F061B34B73A00355AE7 /* Constants.swift in Sources */,
 				FD56BA6B201A56B100D86D70 /* Event.swift in Sources */,
+				E583F21D201AB739004473FD /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -71,7 +71,8 @@ class EventTableViewController: UITableViewController {
             //let passedDetailedText = indexPath.row
             let cell = events[indexPath.row]
             newVC.receivedDetailedText = cell.description
-            
+            newVC.receivedJoinText = "Join "+cell.label
+
         }
     }
     
