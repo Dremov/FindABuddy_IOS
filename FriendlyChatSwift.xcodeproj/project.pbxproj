@@ -16,6 +16,7 @@
 		A92476E81D6F96C300A96C4B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A92476E61D6F96C300A96C4B /* Roboto-Regular.ttf */; };
 		A92476E91D6F96C300A96C4B /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A92476E71D6F96C300A96C4B /* RobotoMono-Regular.ttf */; };
 		DBBAAE069585D787FD06FE15 /* Pods_FriendlyChatSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE776B645030DD333883549 /* Pods_FriendlyChatSwift.framework */; };
+		E583F21B201A90AE004473FD /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E583F21A201A90AE004473FD /* DetailedViewController.swift */; };
 		FD56BA67201A4B0400D86D70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD56BA66201A4B0300D86D70 /* GoogleService-Info.plist */; };
 		FD56BA69201A565A00D86D70 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56BA68201A565A00D86D70 /* EventTableViewController.swift */; };
 		FD56BA6B201A56B100D86D70 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56BA6A201A56B100D86D70 /* Event.swift */; };
@@ -35,6 +36,7 @@
 		9EE776B645030DD333883549 /* Pods_FriendlyChatSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyChatSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92476E61D6F96C300A96C4B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		A92476E71D6F96C300A96C4B /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		E583F21A201A90AE004473FD /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		F3514636A3BDB21360D87272 /* Pods-FriendlyChatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChatSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendlyChatSwift/Pods-FriendlyChatSwift.release.xcconfig"; sourceTree = "<group>"; };
 		FD56BA66201A4B0300D86D70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD56BA68201A565A00D86D70 /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				107960711C612531003DB6CC /* Main.storyboard */,
+				E583F21A201A90AE004473FD /* DetailedViewController.swift */,
 				FD56BA68201A565A00D86D70 /* EventTableViewController.swift */,
 				FD56BA6C201A56F600D86D70 /* EventTableViewCell.swift */,
 				FD56BA6A201A56B100D86D70 /* Event.swift */,
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E583F21B201A90AE004473FD /* DetailedViewController.swift in Sources */,
 				FD56BA6D201A56F600D86D70 /* EventTableViewCell.swift in Sources */,
 				5F5A53801ADE67D500F81DF0 /* FCViewController.swift in Sources */,
 				5F5A537E1ADE67D500F81DF0 /* AppDelegate.swift in Sources */,

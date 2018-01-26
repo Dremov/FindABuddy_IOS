@@ -55,10 +55,23 @@ class EventTableViewController: UITableViewController {
         cell.nameLabel.text = event.label
         cell.photoImageView.image = event.photo
         cell.descriptionEvent.text = event.description
-        
         return cell
     }
-    
+  /*  override func prepare( for segue: UIStoryboardSegue, sender: Any?  ){
+        let newVC: DetailedViewController = segue.destination as! DetailedViewController
+        self.tableView( tableView: UITableView, cellForRowAt: IndexPath)
+        let passedDetailedText = "S"
+        newVC.receivedDetailedText = passedDetailedText
+    }*/
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = tableView.indexPathForSelectedRow{
+            let newVC: DetailedViewController = segue.destination as! DetailedViewController
+            //let passedDetailedText = indexPath.row
+            let cell = events[indexPath.row]
+            newVC.receivedDetailedText = cell.description
+            
+        }
+    }
     
     /*
      // Override to support conditional editing of the table view.
