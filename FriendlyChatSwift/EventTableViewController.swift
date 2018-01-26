@@ -15,6 +15,8 @@ class EventTableViewController: UITableViewController {
     var dbReference: DatabaseReference!
     var events = [Event]()
     
+    var eventSnapshots: [DataSnapshot]! = []
+    
     var refresh: UIRefreshControl!
     
     override func viewDidLoad() {
@@ -116,17 +118,18 @@ class EventTableViewController: UITableViewController {
         
         let photo1 = UIImage(named: "defaultPhoto")
         
-        dbReference = Database.database().reference().child("events").child("test")
+        dbReference = Database.database().reference().child("events")//.child("test")
         
         dbReference.observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
-            let value = snapshot.value as? NSDictionary
-            let label = value?["title"] as? String ?? ""
-            let desc = value?["description"] as? String ?? ""
+            let value1 = snapshot.value as? NSDictionary
+            let eventSnap1 = value1?.value(forKey: "test") as? NSDictionary
+            let label1 = eventSnap1?["title"] as? String ?? ""
+            let desc1 = eventSnap1?["description"] as? String ?? ""
             //            let user = User(username: username)
             
             
-            guard let event1 = Event(label: label, photo: photo1, description: desc, expectedPersons: 1) else {
+            guard let event1 = Event(label: label1, photo: photo1, description: desc1, expectedPersons: 1) else {
                 fatalError("Unable to instantiate event1")
             }
             
